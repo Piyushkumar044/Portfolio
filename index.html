@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dca6c1e4f0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Piyush kumar </span></h1>
+                <p>JAVA FULL STACK DEVELOPER</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/IMG_5075 (1).png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2>About Me</h2>
+<p>
+    I am a recent B.Tech graduate in Computer Science and Information Technology Engineering with strong expertise in design, problem-solving, and Data Structures and Algorithms (DSA). I am proficient in Java, HTML, CSS, JavaScript, Bootstrap, MySQL, and C, with experience in both front-end and back-end development.  
+    <br><br>
+    I am passionate about creating innovative, efficient, and user-friendly software solutions. My skills include implementing responsive designs, optimizing database performance, and contributing to dynamic projects.  
+    <br><br>
+    Continuously learning and improving, I stay updated with emerging technologies and am eager to contribute to impactful projects as part of a collaborative and innovative team in web and software development.
+</p>
+
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Java full Stack</span><br>Building web pages using java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>2024-current</span><br>Duing training at J Spider for java full stack development
+                            </li>
+                            <li><span>2023 june-july</span><br>Internship at Oasis infobyte for web devlopment</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2024</span><br>Btech from CV Raman Global University</li>
+                            <li><span>2020</span><br>Intermidate from Kendriya vidalaya</li>
+                            <li><span>2018</span><br>Intermidate from Kendriya vidalaya</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----services---- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My serivices</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        <b>Custom Website Development:</b> Tailored websites designed to meet your unique business
+                        needs.<br>
+                        <b>Responsive Design:</b> Mobile-friendly and user-centric designs for all devices.<br>
+                        <b>Front-End Development:</b> Interactive and visually appealing interfaces using HTML, CSS,
+                        JavaScript, and Bootstrap.<br>
+                        <b>Back-End Development:</b> Secure and efficient server-side solutions with MySQL
+                        integration.<br>
+                        <b>E-Commerce Development:</b> Robust online stores with seamless functionality and payment
+                        integration.<br>
+                        <b>Web Maintenance:</b> Regular updates and support to keep your site secure and functional.<br>
+                        <b>Performance Optimization:</b> Fast-loading websites for improved user experience.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Java Development</h2>
+                    <p>
+                        <b>Custom Application Development:</b> Design and development of robust, scalable, and secure
+                        Java-based applications.<br>
+                        <b>Web Application Development:</b> Building dynamic, interactive, and responsive web
+                        applications using Java frameworks like Spring and Hibernate.<br>
+                        <b>API Development and Integration:</b> Development of RESTful APIs and seamless integration
+                        with third-party systems.<br>
+                        <b>Database Management:</b> Efficient database design, optimization, and integration using SQL
+                        and NoSQL databases.<br>
+                        <b>Enterprise Solutions:</b> Creating enterprise-grade software with modular and maintainable
+                        architecture.<br>
+                        <b>Performance Optimization:</b> Ensuring high-performance and scalable applications with
+                        optimized code.<br>
+                        <b>Bug Fixing and Maintenance:</b> Providing ongoing support, debugging, and maintenance for
+                        Java applications.<br>
+                        <a href="#">Learn more</a>
+                    </p>
+                </div>
+                <!-- <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>APP Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque est eaque laboriosam possimus provident expedita nesciunt consequatur dignissimos odio voluptate, hic maxime, porro sequi architecto sint eligendi corrupti! Quam, odit.</p>
+                    <a href="#">learn more</a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!--port folio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/ecoumerse1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Ecommerce website</h3>
+                        <p></p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/hospital.png" alt="">
+                    <div class="layer">
+                        <h3>Hospital Management System</h3>
+                        <p>Developed a Hospital Management System using Java Swing (JFrame) and MySQL to manage patient records, room availability, employee details, new patient registration,
+                             and ambulance availability, ensuring efficient hospital operations and data management.</p>
+                        <a href="https://github.com/Piyushkumar044/Hospital-Management-System.git"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/travels.png" alt="">
+                    <div class="layer">
+                        <h3>Traveling Management System</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In minus delectus blanditiis amet
+                            minima officia nostrum repellendus perferendis itaque quia.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- --------contact------- -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="cub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> piyushkumar@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7903522332</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/piyush.rock.5895/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Piyushkumar044"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/piyush._.raj_/?hl=en"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/piyush-kumar-singh-a84b40258/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="Piyush_final.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name " required>
+                        <input type="email" name="Email" placeholder="your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Lorem ipsum dolor, <i class="fas fa-heart"></i> sit amet consectetur </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+    <!-- <form name="submit-to-google-sheet">
+        <input name="email" type="email" placeholder="Email" required>
+        <button type="submit">Send</button>
+    </form> -->
+
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbyXbrphv69js0NYUgX1cYzLQCZyITN9vNJEARbfRnmZBvTQA89xvYp7HML4jN6-6hTm4Q/exec>'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
